@@ -1,0 +1,233 @@
+.navbar-brand img{
+	
+	width: 150px;
+}
+
+header{
+	background-image: url("img/header-bg.jpg");
+	padding-top: 10.5rem;
+	padding-bottom: 6rem;
+	text-align: center;
+	color: #fff;
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+	
+}
+
+nav{
+	background-color: #212529;
+	z-index: 100;
+}
+
+nav ul li a {
+	color: white;
+}
+
+.head_div1{
+	font-size: 1.5rem;
+	font-style: italic;
+	line-height: 1.5rem;
+	font-family: elephant;
+	font-weight: bold;
+
+}
+
+.head_div2{
+	font-size: 3.25rem;
+	font-weight: bold;	
+	margin-bottom: 4rem;
+	font-family: elephant;
+}
+
+header div a{
+	background-color:#cca000;
+}
+
+.card i {
+	width: 35%;
+	height: 75%;
+	font-size: 65px;
+	border-radius: 50%;
+	background-color: #ffc800;
+	margin:auto ;
+
+}
+.portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#lorem i {
+	font-size: 70px;
+	color: white;
+}
+
+.portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+}
+
+ .portfolio-link .portfolio-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 200, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+.portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+    .portfolio-caption-heading{
+    	font-size: 25px ;
+    	font-weight: bold;
+    }
+
+
+.sec{
+	background-color: #ddd;
+	padding-bottom: 40px;
+}	
+
+
+
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 46%;
+    width: 2px;
+    content: "";
+    background-color: #e9ecef;
+}
+
+.timeline {
+list-style: none;
+position: relative;
+
+
+
+}  
+.timeline-panel{
+	width: 70%;
+}
+.timeline li{
+	display: inline-flex;
+	position: relative;
+}
+.coloor{
+	
+	border:8px solid rgba(0, 0, 0, 0.1);
+	color: white;
+	border-radius: 50%;
+	margin-left:  39%;
+	width: 17rem;
+	height: 12rem;
+	margin-top: 60px;
+	
+
+
+}
+.timeline-image1{
+	background-color: orange;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.timeline-image img{
+	border:8px solid rgba(0, 0, 0, 0.1);
+
+}
+
+ .groupe img {
+    width: 14rem;
+    height: 14rem;
+    border:8px solid rgba(0, 0, 0, 0.1);
+}
+.buton {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+
+}
+
+
+
+.groupe p{
+	color: #ddd;
+}
+
+.groupe{
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+#team div h3{
+		font-size: 13px;
+}
+
+#team{
+	background-color: #ddd;
+	padding-top: 30px;
+}
+
+#logo img{
+	width: 200px;
+}
+
+#carte div button{
+	background-color: #ffc800;
+	color: white;
+	border: none;
+}
+
+#carte{
+	background-image: url(img/carte2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#carte h3{
+	font-size: 13px;
+}
+
+#contactForm input{
+	height: 50px;
+}
+
+#contactForm textarea{
+	height: 183px;
+}
+
+#contactForm{
+	padding-top: 40px;
+}
+
+@media screen and (max-width: 600px){
+	.coloor{
+		margin-left: 35%;
+	}
+}
